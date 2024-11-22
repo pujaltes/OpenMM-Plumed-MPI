@@ -15,7 +15,7 @@ conda install cmake swig
 conda install pandas
 conda install mdtraj -c conda-forge
 
-git clone https://github.com/husseinmur/OpenMM-Plumed-MPI
+git clone https://github.com/vendruscolo-lab/OpenMM-Plumed-MPI
 
 cd OpenMM-Plumed-MPI
 mkdir build install openmm -p plumed/include -p plumed/lib

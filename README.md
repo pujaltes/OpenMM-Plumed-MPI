@@ -9,7 +9,7 @@ conda activate pl
 conda install mpich
 conda install mpi4py
 conda install openmm=8.0 -c conda-forge
-conda install plumed=2.8.2=mpi_mpich_h7ded119_0 -c conda-forge
+conda install plumed=2.8.2=mpi_mpich_* -c conda-forge
 conda install py-plumed -c conda-forge
 conda install cmake swig
 conda install pandas

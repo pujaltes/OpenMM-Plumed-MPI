@@ -20,7 +20,7 @@ if platform.system() == 'Darwin':
 extension = Extension(name='_openmmplumed',
                       sources=['PlumedPluginWrapper.cpp'],
                       libraries=['OpenMM', 'OpenMMPlumed'],
-                      include_dirs=[os.path.join(openmm_dir, 'include'), openmmplumed_header_dir, mpi4py_dir],
+                      include_dirs=[os.path.join(openmm_dir, 'openmm', 'include'), openmmplumed_header_dir, mpi4py_dir],
                       library_dirs=[os.path.join(openmm_dir, 'lib'), openmmplumed_library_dir],
                       extra_compile_args=extra_compile_args,
                       extra_link_args=extra_link_args

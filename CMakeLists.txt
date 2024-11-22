@@ -11,7 +11,7 @@ SET(CMAKE_INSTALL_PREFIX "${CMAKE_CURRENT_SOURCE_DIR}/install" CACHE PATH "Insta
 
 # OpenMM directory set relative to current directory
 SET(OPENMM_DIR "${CMAKE_CURRENT_SOURCE_DIR}/openmm" CACHE PATH "Where OpenMM is installed")
-INCLUDE_DIRECTORIES("${OPENMM_DIR}/include")
+INCLUDE_DIRECTORIES("${OPENMM_DIR}/include/openmm")
 LINK_DIRECTORIES("${OPENMM_DIR}/lib" "${OPENMM_DIR}/lib/plugins")
 
 # MPI4PY directory with exact path
